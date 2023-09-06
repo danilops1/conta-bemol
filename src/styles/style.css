@@ -1,0 +1,362 @@
+
+/* POSICIONAMENTO*/
+
+.flexRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color: #4864C0;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+.logobemol{
+  max-width: 400px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  margin: 30px 0px 30px 90px;
+}       
+
+/* PRIMEIRA SEÇÃO */
+
+.container{
+    margin: 0px 70px 0px 70px;
+}
+
+h1{
+    color: #1D2F8A;
+    font-size: 61PX;
+    font-weight: 700;
+    line-height: 67px;
+    width: 468px;
+    height: 201px;
+    margin-bottom: 20px;
+    ;
+}
+
+.firstSection p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 135%;
+    color: #1D2F8A;
+    width: 396px;
+    height: 66px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.linkabrirconta {
+    width: 336px;
+    border-radius: 10px;
+    padding: 16px 24px 16px 24px;
+    background-color: #ffc04a;
+    color: #1D2F8A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linkabrirconta:hover{
+    background-color: #1D2F8A;
+    color: #ffc04a;
+}
+
+/* SEGUNDA SEÇÃO */
+
+.secondsection {
+    max-width: 1200px;
+    max-height: 720px;
+    margin: auto;
+}
+
+.secondsection h6 {
+    width: 480px;
+    margin-left: 155px;
+    color: #1D2F8A;
+    font-size: 20px;
+}
+   
+.reginaimg {
+   width: 570px;
+   height: 570px;
+}
+
+.cardvantagens {
+    flex-wrap: wrap;
+    max-width: 450px;
+    max-height: 655px;
+    justify-content: space-between;
+}
+
+.minicard {
+    width: 220px;
+    margin: 5px auto;
+}
+
+.minicard span {
+ display: block;
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 21px;
+ letter-spacing: 0em;
+ text-align: center;
+ max-width: 218px;
+ height: 52px;
+ color: #1D2F8A;
+}
+
+.minicard img {
+    margin-left: 34px;
+}
+
+/* TERCEIRA SEÇÃO */
+
+.thirdsection{
+   background-color: #4864C0;
+   height: 461px;
+   width: 1120px;
+   border-radius: 70px;
+   margin: auto;
+   margin-bottom: 100px;
+}
+
+.thirdsectiondescription {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdsectiondescription p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: right;
+  margin-bottom: 80px;
+}
+
+/* QUARTA SEÇÃO */
+
+
+
+/* QUINTA SEÇÃO */
+
+.fifthsection {
+    padding: 0 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculatorcontainer,
+#simulatortimebox {
+    height: 468px;
+}
+
+#calculatorcontainer h3{
+    height: 134px;
+    width: 647px;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    color: #1D2F8A;
+    margin-bottom: 40px;
+}
+
+.simulatorbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.simulatorbox div{
+    height: 75px;
+}
+
+#inputvalue{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+#inputvalue span{
+    height: 17px;
+    width: 341px;
+    color: #0a102e;  
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+
+#inputvalue input{
+    height: 60px;
+    width: 416px;
+    border: none;
+    border-bottom: 2px solid #1D2F8A;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#inputvalue label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#timeinput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.tempoinput{
+    display: flex;
+    flex-direction: column;
+}
+
+.tempoinput label{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.tempoinput span{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.tempoinput input{
+    width: 420px;
+    align-items: flex-start;
+}
+
+.simulatorButton{
+
+    border-radius: 10px;
+    border: 2px solid #ffc04a;
+    color: #1d2f8a;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 2px 5px;
+    width: 80px;
+}
+
+.simulatorButton:hover{
+    border-color: #1D2F8A;
+    opacity: 60%;
+}
+
+#simuladortimebox {
+    background-color: #4864c0;
+    border-radius: 5px;
+    width: 434px;
+    height: 307px;
+    color: white;
+}
+
+.containerpontosbemol{
+    margin-left: 60px;
+    margin-top: 55px;
+}
+
+.container1{
+    border-bottom: 2px solid white;
+    margin-right: 65px;
+    margin-bottom: 10px;
+}
+
+.container1 span{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-left: 185px;
+}
+
+.container2 span{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-left: 180px;
+}
+
+
+
+
+/* SEXTA SEÇÃO */
+
+.sixthsection {
+    height: 188px; 
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.sixthsection h3{
+  height: 153px;
+  width: 607px;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 51px;
+  color: #1D2F8A;
+}
+
+.containerbuttons{
+  height: 188px;
+  width: 513px;
+  padding: 10px;
+}
+
+.linkfaq {
+    width: 330px;
+    border-radius: 10px;
+    border: 3px solid #ffc04a;
+    padding: 16px 24px 16px 24px;
+    color: #1D2F8A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linkfaq:hover{
+    background-color: #1D2F8A;
+    color: #ffc04a;
+}
+
+footer{
+    background-color: #4864C0;
+    height: 180px;
+    top: 3856px;
+    border-radius: 45px 45px 0 0;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
